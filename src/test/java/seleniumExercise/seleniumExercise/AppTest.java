@@ -1,5 +1,4 @@
 package seleniumExercise.seleniumExercise;
-
 import org.openqa.selenium.Platform;
 
 import junit.framework.Test;
