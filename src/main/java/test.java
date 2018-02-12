@@ -1,13 +1,15 @@
-package seleniumExercise.seleniumExercise;
+import org.junit.Test;
 import org.openqa.selenium.Platform;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
+import junit.framework.TestCase;
+import seleniumExercise.seleniumExercise.PlatformType;
+import seleniumExercise.seleniumExercise.myTests;
+
+public class test {
+	
+	
+	@Test
+	public void main()
     {
     	    
     	int numOfFirefox= 3;
@@ -34,5 +36,6 @@ public class App
 	        }
 	        
     }
-
+    
+        
 }
